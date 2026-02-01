@@ -1,4 +1,3 @@
-## Project Structure
 frontend/
 ├── app/
 │   ├── page.tsx                 # Dashboard
@@ -28,7 +27,6 @@ frontend/
 │   └── agent.ts                 # Agent message types
 │
 └── tailwind.config.ts
-
 
 backend/
 ├── app/
