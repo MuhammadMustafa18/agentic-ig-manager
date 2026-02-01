@@ -1,0 +1,55 @@
+# =====================
+# Node / Next.js
+# =====================
+node_modules/
+.next/
+out/
+dist/
+*.log
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vscode/
+.DS_Store
+
+# Ignore .env in frontend subfolders
+**/.env
+**/.env.local
+**/.env.*.local
+
+# =====================
+# Python / Backend
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+*.db
+*.egg-info/
+*.egg
+*.pytest_cache/
+*.mypy_cache/
+*.pyenv/
+*.coverage
+.coverage.*
+htmlcov/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore .env in backend subfolders
+**/.env
+**/.env.*
+
+# =====================
+# Misc
+# =====================
+.idea/
+*.iml
+.DS_Store
+*.swp
+*.swo
+*.tmp
